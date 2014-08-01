@@ -1,4 +1,4 @@
-default: libintercept.so
+default: libinterceptssl.so
 
-libintercept.so:
-	gcc -shared interceptssl.c -o libintercept.so -ldl -D_GNU_SOURCE -fpic
+libinterceptssl.so:
+	gcc -shared interceptssl.c -o libinterceptssl.so -ldl -D_GNU_SOURCE -fpic
