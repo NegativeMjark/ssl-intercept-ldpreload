@@ -4,7 +4,7 @@
 
 const int MAX_NAME = 1024;
 
-static char *OUTPUT_DIR = "";
+static char *OUTPUT_DIR = ".";
 
 static void set_output_dir() {
     char *output_dir = getenv("INTERCEPT_SSL_OUTPUT_DIR");
